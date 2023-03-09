@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/search"
+        android:icon="@drawable/search"
+        android:orderInCategory="101"
+        android:title="SEARCH"
+        app:showAsAction="always" />
+    <item android:id="@+id/refresh"
+        android:icon="@drawable/share"
+        android:orderInCategory="102"
+        android:title="REFRESH"
+        app:showAsAction="always" />
+    <item android:id="@+id/hello"
+        android:orderInCategory="100"
+        android:title="EXIT"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/details"
+        android:orderInCategory="100"
+        android:title="NEW NOTE"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/register"
+        android:orderInCategory="100"
+        android:title="view profile"
+        app:showAsAction="ifRoom" />
+</menu>
